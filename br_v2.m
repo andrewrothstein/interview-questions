@@ -1,6 +1,5 @@
 %%
 clear; clc; close all;
-cd('C:\Users\vbk4718\Desktop\GC projects\BlackRock');
 
 num_shuffles = 10;
 modelAccuracy = zeros(num_shuffles,1);
