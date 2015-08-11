@@ -1,10 +1,6 @@
 function[Accuracy] = computeAccuracyBR()
 
 %%
-clear; clc; close all;
-cd('C:\Users\vbk4718\Desktop\GC projects\BlackRock');
-
-%%
 % fprintf('Reading data...; ');
 data = readtable('datasetBR.csv');
 m = round(0.9*size(data,1));
